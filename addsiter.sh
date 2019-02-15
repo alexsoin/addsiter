@@ -81,7 +81,7 @@ if [ -d $websiteDir ]; then
     fi
 fi
 
-echo "<VirtualHost $SITENAME:80>
+echo "<VirtualHost *:80>
 
 ServerName $SITENAME.loc
 DocumentRoot \"$SITEDIR$SITENAME\"

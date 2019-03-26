@@ -29,6 +29,10 @@ chmod +x ~/bashscripts/addsiter.sh
 ```bash
 echo 'alias addsite="~/bashscripts/addsiter.sh"' >> ~/.bashrc
 ```
+Также добавляем алиас для команды sudo (если ранее это небыло сделано, без этого алиаса команда может не запускаться)
+```bash
+echo 'alias sudo="sudo "' >> ~/.bashrc
+```
 
 ИЛИ создаем символическую ссылку на файл:
 ```bash
